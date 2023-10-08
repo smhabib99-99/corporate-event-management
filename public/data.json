@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Conferences and Seminars",
-        "image": "conference.jpg",
+        "image": "https://i.ibb.co/T8QZJMx/conferences.jpg",
         "price": "$1,500 - $5,000",
         "description": "Professional conference and seminar planning for your corporate knowledge-sharing events.",
         "buttonColor": "#007BFF"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "Trade Shows",
-        "image": "tradeshow.jpg",
+        "image": "https://i.ibb.co/vDRTbFJ/tradeshows.jpg",
         "price": "$2,000 - $7,500",
         "description": "Exhibition booth setup and management for trade shows that leave a lasting impression.",
         "buttonColor": "#007BFF"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "title": "Product Launches",
-        "image": "productlaunch.jpg",
+        "image": "https://i.ibb.co/CwbMZbZ/productlaunch.webp",
         "price": "$2,500 - $10,000",
         "description": "Launch your new product in style with our comprehensive product launch services.",
         "buttonColor": "#007BFF"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "title": "Corporate Meetings",
-        "image": "corporatemeeting.jpg",
+        "image": "https://i.ibb.co/FX1Dzv4/corporate-Meetings.jpg",
         "price": "$1,000 - $4,000",
         "description": "Efficient and productive corporate meeting planning and execution.",
         "buttonColor": "#007BFF"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "title": "Award Ceremonies",
-        "image": "awards.jpg",
+        "image": "https://i.ibb.co/YcJR75G/award-Ceremony.jpg",
         "price": "$3,000 - $8,000",
         "description": "Elegant award ceremonies that recognize your employees' achievements.",
         "buttonColor": "#007BFF"
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "title": "Company Milestones",
-        "image": "milestones.jpg",
+        "image": "https://i.ibb.co/q9K9Jb3/company-Milestone.jpg",
         "price": "$2,500 - $6,000",
         "description": "Celebrate your company's achievements with memorable milestone events.",
         "buttonColor": "#007BFF"
@@ -50,7 +50,7 @@
     {
         "id": 7,
         "title": "Company Sports Tournaments",
-        "image": "sports.jpg",
+        "image": "https://i.ibb.co/Px6CmZV/company-Sports.jpg",
         "price": "$2,000 - $5,500",
         "description": "Organize fun and competitive sports tournaments to foster team spirit.",
         "buttonColor": "#007BFF"
@@ -58,7 +58,7 @@
     {
         "id": 8,
         "title": "Shareholder Meetings",
-        "image": "shareholders.jpg",
+        "image": "https://i.ibb.co/XSCJf5L/shareholder-Meetings.jpg",
         "price": "$1,200 - $4,500",
         "description": "Professional shareholder meeting planning to engage your investors effectively.",
         "buttonColor": "#007BFF"
@@ -66,7 +66,7 @@
     {
         "id": 9,
         "title": "Team Building Activities",
-        "image": "teambuilding.jpg",
+        "image": "https://i.ibb.co/N31D84n/company-Team.jpg",
         "price": "$800 - $3,500",
         "description": "Customized team-building activities that strengthen your corporate team.",
         "buttonColor": "#007BFF"
