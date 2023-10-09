@@ -11,7 +11,7 @@ import Service from "../Service/Service";
 const Home = () => {
 
     const service = useLoaderData()
-    console.log(service);
+    // console.log(service);
 
 
 

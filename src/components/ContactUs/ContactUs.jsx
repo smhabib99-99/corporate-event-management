@@ -6,7 +6,10 @@ const ContactUs = () => {
 
     return (
         <div className="block mx-auto max-w-full items-center">
-            <h2 className="text-3xl mt-5 pt-8 text-center font-medium text-fuchsia-500">Request a Quote</h2>
+            <div className="">
+                <h2 className="text-3xl mt-5 pt-8 text-center font-medium text-fuchsia-500">Request a Quote</h2>
+            </div>
+
             <div className="flex item-center">
 
                 <form className=" mx-auto items-center my-8 border shadow-md">

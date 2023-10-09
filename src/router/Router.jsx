@@ -5,6 +5,9 @@ import Services from "../components/Services/Services";
 import Service from "../pages/Service/Service";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
+import ServicesCard from "../components/Services/ServicesCard";
+import Servic from "../components/Services/Servic";
 
 
 const router = createBrowserRouter([
@@ -12,6 +15,7 @@ const router = createBrowserRouter([
     {
         path: '/',
         element:<Root></Root>,
+        errorElement:<ErrorPage></ErrorPage>,
         children: [
             {
                 path:'/',
@@ -19,7 +23,7 @@ const router = createBrowserRouter([
                 loader:()=>fetch('/data.json')
             },
             {
-                path:'/services',
+                path:'/services/:id',
                 element:<Services></Services>
             },
             {
@@ -29,6 +33,16 @@ const router = createBrowserRouter([
             {
                 path:'/register',
                 element:<Register></Register>
+            },
+            // {
+            //     path:'/service/:id',
+            //     element:<ServicesCard></ServicesCard>,
+            //     loader:()=>fetch('/data.json')
+            // },
+            {
+                path:'/service/:id',
+                element:<Servic></Servic>,
+                loader:()=>fetch('/data.json')
             }
         ]
     }
