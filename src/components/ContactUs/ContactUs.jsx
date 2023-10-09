@@ -5,14 +5,15 @@ const ContactUs = () => {
 
 
     return (
-        <div className="block mx-auto max-w-full items-center">
+        <div className="block mx-auto mb-10 max-w-full items-center">
+            <h2 className="text-3xl text-center mt-14 text-fuchsia-600 font-medium bg-orange-400 mx-10 py-5">Contact Us</h2>
             <div className="">
-                <h2 className="text-3xl mt-5 pt-8 text-center font-medium text-fuchsia-500">Request a Quote</h2>
+                <h2 className="text-2xl py-4 text-center font-normal">Request a Quote</h2>
             </div>
 
             <div className="flex item-center">
 
-                <form className=" mx-auto items-center my-8 border shadow-md">
+                <form className=" mx-auto items-center border shadow-md">
                     <div >
                         <div className=" md:w-1/2 px-3 mb-6 md:mb-0">
                             <label className=" min-w-full  uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
@@ -33,7 +34,7 @@ const ContactUs = () => {
                             <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
                                 E-mail
                             </label>
-                            <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email" />
+                            <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" placeholder="Your Name" id="email" type="email" />
                             {/* <p className="text-gray-600 text-xs italic">Some tips - as long as needed</p> */}
                         </div>
                     </div>
@@ -52,7 +53,7 @@ const ContactUs = () => {
                                 <p className="text-center">Send</p>
                             </button>
                         </div>
-                        <div className="md:w-2/3"></div>
+                        {/* <div className="md:w-2/3"></div> */}
                     </div>
                 </form>
             </div>
