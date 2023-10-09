@@ -12,9 +12,9 @@ const Banner = () => {
                             <div className="hero-overlay bg-opacity-60"></div>
                             <div className="hero-content text-center text-neutral-content">
                                 <div className="max-w-md">
-                                    <h1 className="mb-5 text-5xl font-bold">Grow Faster Your Business With Our Services</h1>
-                                    <p className="mb-5">Our Company is Committed to help you business grow. We care our Customer in every possible way to get them to reach their success. For That we are meant to.</p>
-                                    <button className="btn btn-secondary">Our Services</button>
+                                    <h1 className="mb-5 text-5xl pt-10 font-bold">Grow Faster Your Business With Our Services</h1>
+                                    <p className="mb-5 p-10">Our Company is Committed to help you business grow. We care our Customer in every possible way to get them to reach their success. For That we are meant to.</p>
+                                    {/* <button className="btn btn-secondary">Our Services</button> */}
                                 </div>
                             </div>
                         </div>
