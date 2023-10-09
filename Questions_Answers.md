@@ -20,10 +20,10 @@ console.log(greetign);
 
 #### Answer: C
  
- Explanation: Explanation of my answer C and the reason is greeting is defined but greetign is not defined and we are consoling greetgn because the variable doesn't exist. 
+
 
 <i>Write your explanation here</i>
-
+ Explanation: Explanation of my answer C and the reason is greeting is defined but greetign is not defined and we are consoling greetgn because the variable doesn't exist. 
 </p>
 </details>
 
@@ -46,10 +46,10 @@ sum(1, "2");
 <p>
 
 #### Answer: C
- Okay we are calling a function which takes two arguments and we are giving it that two arguments also but in different data types one is integer and another is character type so when the function will add this two in JavaScript it will see it as a string and will not add instead it will put that value side by side like character/string concatenation.
+
 
 <i>Write your explanation here</i>
-
+ Okay we are calling a function which takes two arguments and we are giving it that two arguments also but in different data types one is integer and another is character type so when the function will add this two in JavaScript it will see it as a string and will not add instead it will put that value side by side like character/string concatenation.
 </p>
 </details>
 
@@ -72,10 +72,10 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
 <i>Write your explanation here</i>
-
+Our answer is A. Because we are not changing the food variable's memory location with any other item.
 </p>
 </details>
 
@@ -98,10 +98,10 @@ console.log(sayHi());
 <p>
 
 #### Answer: B
-Our answer is B . We are consoling out by calling sayHi function but we are not providing the argument that function parameter expects so for that function parameter it will give undefined because the function parameter didn't get the argument.
+
 
 <i>Write your explanation here</i>
-
+Our answer is B . We are consoling out by calling sayHi function but we are not providing the argument that function parameter expects so for that function parameter it will give undefined because the function parameter didn't get the argument.
 </p>
 </details>
 
