@@ -8,6 +8,9 @@ import Register from "../pages/Register/Register";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import ServicesCard from "../components/Services/ServicesCard";
 import Servic from "../components/Services/Servic";
+import PrivateRoute from "./PrivateRoute";
+import AboutUs from "../pages/AboutUs/AboutUs";
+import ContactUsNow from "../pages/ContactUsNow/ContactUsNow";
 
 
 const router = createBrowserRouter([
@@ -41,8 +44,16 @@ const router = createBrowserRouter([
             // },
             {
                 path:'/service/:id',
-                element:<Servic></Servic>,
+                element:<PrivateRoute><Servic></Servic></PrivateRoute>,
                 loader:()=>fetch('/data.json')
+            },
+            {
+                path:'/about',
+                element:<PrivateRoute><AboutUs></AboutUs></PrivateRoute>
+            },
+            {
+                path:'/contact',
+                element:<PrivateRoute><ContactUsNow></ContactUsNow></PrivateRoute>
             }
         ]
     }
