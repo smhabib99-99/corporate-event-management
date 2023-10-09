@@ -18,7 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
+ 
+ Explanation: Explanation of my answer C and the reason is greeting is defined but greetign is not defined and we are consoling greetgn because the variable doesn't exist. 
 
 <i>Write your explanation here</i>
 
