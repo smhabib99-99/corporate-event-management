@@ -45,7 +45,8 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
+ Okay we are calling a function which takes two arguments and we are giving it that two arguments also but in different data types one is integer and another is character type so when the function will add this two in JavaScript it will see it as a string and will not add instead it will put that value side by side like character/string concatenation.
 
 <i>Write your explanation here</i>
 
@@ -96,7 +97,8 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
+Our answer is B . We are consoling out by calling sayHi function but we are not providing the argument that function parameter expects so for that function parameter it will give undefined because the function parameter didn't get the argument.
 
 <i>Write your explanation here</i>
 
@@ -124,9 +126,10 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
+
 
 <i>Write your explanation here</i>
-
+ForEach is like a for loop in JavaScript it will iterate from indexed number 0 to 3 and hold the latest value. When we will console it out will show the value 3.
 </p>
 </details>
