@@ -6,6 +6,8 @@ import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import Services from "../../components/Services/Services";
 import Service from "../Service/Service";
+import { useContext } from "react";
+import { AuthContext } from "../../providers/AuthProvider";
 
 
 const Home = () => {
@@ -14,6 +16,8 @@ const Home = () => {
     // console.log(service);
 
 
+    const authInfo = useContext(AuthContext);
+    console.log(authInfo);
 
     return (
         <div>
